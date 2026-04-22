@@ -66,10 +66,7 @@ Facebook pe fake profile bana ke logo se mere naam pe paise maang rahe hain.
 ## 🚀 Run Locally
 
 ### 1. Clone the repo
-```bash
-git clone https://github.com/yourusername/cyber-complaint-assistant
-cd cyber-complaint-assistant
-```
+
 
 ### 2. Install dependencies
 ```bash
