@@ -27,31 +27,32 @@ html, body, [class*="css"] {
 
 /* ── Header ── */
 .header-wrap {
-    display: flex; align-items: center; gap: 1.2rem;
+    display: flex; align-items: center; gap: 1rem;
     border-bottom: 2px solid #ff9933;
-    padding-bottom: 1rem; margin-bottom: 2rem;
+    padding: 0.5rem 0 1rem 0; margin-bottom: 2rem;
+    flex-wrap: wrap;
 }
 .header-ashoka {
-    font-size: 3.2rem; line-height: 1;
+    font-size: 2.4rem; line-height: 1; flex-shrink: 0;
 }
 .header-title {
     font-family: 'Rajdhani', sans-serif;
-    font-size: 2.2rem; font-weight: 700;
+    font-size: clamp(1.3rem, 2.5vw, 2rem); font-weight: 700;
     color: #ffffff; letter-spacing: 0.04em;
-    line-height: 1.1;
+    line-height: 1.1; white-space: nowrap;
 }
 .header-sub {
-    font-size: 0.8rem; color: #94a3b8;
-    letter-spacing: 0.12em; text-transform: uppercase;
-    margin-top: 0.2rem;
+    font-size: 0.75rem; color: #94a3b8;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    margin-top: 0.2rem; white-space: nowrap;
 }
 .header-badge {
     margin-left: auto;
     background: linear-gradient(135deg, #ff9933 0%, #ff6600 100%);
     color: #0a0e1a; font-family: 'Rajdhani', sans-serif;
-    font-weight: 700; font-size: 1rem;
-    padding: 0.4rem 1rem; border-radius: 4px;
-    letter-spacing: 0.08em;
+    font-weight: 700; font-size: 0.9rem;
+    padding: 0.3rem 0.8rem; border-radius: 4px;
+    letter-spacing: 0.08em; flex-shrink: 0;
 }
 
 /* ── Input Section ── */
